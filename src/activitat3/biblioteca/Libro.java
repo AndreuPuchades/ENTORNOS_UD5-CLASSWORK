@@ -18,7 +18,6 @@ public class Libro {
     public void setEstado(Estado estado) {
         this.estado = estado;
     }
-
     public String getIdentificador() {
         return identificador;
     }
