@@ -19,7 +19,7 @@ public class Biblioteca {
     public void cambiarEstadoLibro(String identificadorLibro, Estado estado){
         for (int i = 0; i < listaAutores.size(); i++) {
             for (int j = 0; j < listaAutores.get(i).getListaLibros().size(); j++) {
-                if(listaAutores.get(i).getListaLibros().get(j).getIdentificador().equals(identificadorLibro)){
+                if(listaAutores.get(i).getListaLibros().get(j).getID().equals(identificadorLibro)){
                     listaAutores.get(i).getListaLibros().get(j).setEstado(estado);
                 }
             }

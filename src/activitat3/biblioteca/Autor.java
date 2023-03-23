@@ -19,8 +19,8 @@ public class Autor {
         return listaLibros;
     }
 
-    public void anyadirLibro(String identificador, String titulo, String ISBN){
-        Libro libroNuevo = new Libro(identificador, titulo, ISBN);
+    public void anyadirLibro(String ID, String identificador, String titulo, String ISBN){
+        Libro libroNuevo = new Libro(ID, identificador, titulo, ISBN);
 
         if(comprobarSiHayUnLibroIgual(libroNuevo)){
             System.out.println("Ya esta añdadido este libro");
